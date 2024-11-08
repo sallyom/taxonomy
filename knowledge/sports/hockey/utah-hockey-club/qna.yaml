@@ -1,0 +1,90 @@
+version: 3
+domain: sports
+created_by: somalley
+seed_examples:
+  - context: |
+      The Utah Hockey Club is a professional ice hockey team based in Salt Lake City. They compete in the National Hockey League (NHL) as a member of
+      the Central Division in the Western Conference. The team began playing as an expansion team during the 2024–25 season, with home games at the Delta Center.
+    questions_and_answers:
+      - question: |
+          Where is the Utah Hockey Club based?
+        answer: |
+          The Utah Hockey Club is based in Salt Lake City, Utah.
+      - question: |
+          In which NHL division does the Utah Hockey Club play?
+        answer: |
+          The Utah Hockey Club plays in the Central Division of the Western Conference.
+      - question: |
+          When did the Utah Hockey Club start playing?
+        answer: |
+          The Utah Hockey Club started playing during the 2024–25 NHL season.
+  - context: |
+      The team was created on April 18, 2024, when the NHL Board of Governors granted an expansion franchise to Jazz owner Ryan Smith.
+      Instead of an expansion draft, Smith acquired the hockey assets of the Arizona Coyotes, including players, coaching staff, and draft picks.
+    questions_and_answers:
+      - question: |
+          Who was granted the Utah Hockey Club expansion franchise?
+        answer: |
+          The expansion franchise was granted to Ryan Smith, the owner of the Utah Jazz.
+      - question: |
+          What did Ryan Smith acquire from the Arizona Coyotes?
+        answer: |
+          Ryan Smith acquired the hockey assets of the Arizona Coyotes, including players, coaching staff, and draft picks.
+      - question: |
+          When was the Utah Hockey Club expansion franchise created?
+        answer: |
+          The Utah Hockey Club expansion franchise was created on April 18, 2024.
+  - context: |
+      The Utah Hockey Club was introduced with a temporary name and colors for their inaugural season. The full team identity is planned for the
+      2025–26 season. On June 13, 2024, the team revealed its temporary name, colors, and jerseys.
+    questions_and_answers:
+      - question: |
+          When was the Utah Hockey Club's temporary name and colors revealed?
+        answer: |
+          The temporary name and colors were revealed on June 13, 2024.
+      - question: |
+          What is the Utah Hockey Club's plan for their team identity?
+        answer: |
+          The full team identity is planned for the 2025–26 season.
+      - question: |
+          Will the Utah Hockey Club have a different name in the future?
+        answer: |
+          Yes, the team will adopt a permanent name and identity for the 2025–26 season.
+  - context: |
+      The Utah Hockey Club's primary logo features a roundel with a "Utah" wordmark, colored with mountain blue, rock black, and salt white.
+      The secondary logo displays "Utah Hockey Club" over an outline of Utah.
+    questions_and_answers:
+      - question: |
+          What colors are used in the Utah Hockey Club's logo?
+        answer: |
+          The logo uses mountain blue, rock black, and salt white.
+      - question: |
+          What does the Utah Hockey Club's secondary logo depict?
+        answer: |
+          The secondary logo shows "Utah Hockey Club" over an outline of Utah.
+      - question: |
+          When were the Utah Hockey Club's logos released?
+        answer: |
+          The logos were released on June 13, 2024.
+  - context: |
+      On October 8, 2024, the Utah Hockey Club won its first regular-season game against the Chicago Blackhawks, with Dylan Guenther scoring the first goal in franchise history.
+    questions_and_answers:
+      - question: |
+          Who scored the first goal in Utah Hockey Club's franchise history?
+        answer: |
+          Dylan Guenther scored the first goal in the team's history.
+      - question: |
+          Which team did the Utah Hockey Club defeat in their first regular-season game?
+        answer: |
+          The Utah Hockey Club defeated the Chicago Blackhawks.
+      - question: |
+          When did the Utah Hockey Club win its first regular-season game?
+        answer: |
+          The first win occurred on October 8, 2024.
+document_outline: |
+  Information about the Utah Hockey Club.
+document:
+  repo: https://github.com/sallyom/ilab_knowledge
+  commit: 388dfff13fdc78ea67d57dc55a444197e854b1ae
+  patterns:
+    - utah-hockey-club.md
